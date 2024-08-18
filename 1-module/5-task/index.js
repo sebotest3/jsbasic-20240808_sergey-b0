@@ -1,7 +1,6 @@
-function truncate(str, maxLength, suffix="...") {
-  if (str.length > maxLength) {
-    return str.slice(0, maxLength - suffix.length) + suffix;
-  } else {
-    return str;
+function truncate(str, maxlength) {
+  if (str.length > maxlength) {
+    return str.slice(0, maxlength - 1) + '…';
   }
+  return str;
 }
