@@ -11,8 +11,3 @@ function makeDiagonalRed(table) {
     cell.style.backgroundColor = 'red';
   }
 }
-
-// Пример использования функции
-let table = document.querySelector('table');  // Получаем элемент <table>
-makeDiagonalRed(table); // Применяем функцию для выделения диагональных ячеек
-

@@ -17,22 +17,3 @@ function makeFriendsList(friends) {
   // Возвращаем созданный элемент ul
   return ul;
 }
-
-// Пример вызова функции
-let friends = [
-  {
-      firstName: 'Artsiom',
-      lastName: 'Mezin'
-  },
-  {
-      firstName: 'Ilia',
-      lastName: 'Kantor'
-  },
-  {
-      firstName: 'Christopher',
-      lastName: 'Michael'
-  }
-];
-
-// Получаем и выводим на экран HTML элемент ul с друзьями
-document.body.appendChild(makeFriendsList(friends));
