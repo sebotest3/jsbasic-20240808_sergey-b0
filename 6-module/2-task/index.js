@@ -1,6 +1,6 @@
 import createElement from '../../assets/lib/create-element.js';
 
-class ProductCard {
+export default class ProductCard {
   constructor(product) {
     this.product = product;
     this.render();
@@ -34,5 +34,3 @@ class ProductCard {
     this.elem.dispatchEvent(addEvent);
   }
 }
-
-export default ProductCard;
